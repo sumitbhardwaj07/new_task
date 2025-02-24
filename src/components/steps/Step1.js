@@ -8,6 +8,7 @@ const ProjectForm = ({nextStep}) => {
   const [endDate, setEndDate] = useState("");
   const [notes, setNotes] = useState("");
 
+  
   return (
     <div className={styles.formContainer}>
       <h2>Create a project</h2>
