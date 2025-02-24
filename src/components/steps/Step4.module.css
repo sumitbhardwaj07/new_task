@@ -1,0 +1,70 @@
+.container {
+  width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.subtext {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.option.selected {
+  border-color: blue;
+  background: rgba(0, 0, 255, 0.1);
+}
+
+.option-title {
+  font-weight: bold;
+}
+
+.option-desc {
+  font-size: 12px;
+  color: gray;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.back {
+  background: lightgray;
+}
+
+.next {
+  background: blue;
+  color: white;
+}

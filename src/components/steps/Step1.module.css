@@ -1,0 +1,76 @@
+.formContainer {
+  width: 400px;
+  height: 600px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.input, .select, .textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.clientContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.newClientBtn {
+  padding: 8px;
+  background: #007bff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dateContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.textarea {
+  height: 80px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 80px;
+}
+
+.backBtn, .nextBtn {
+  padding: 8px 20px;
+  margin-right: 150px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.backBtn {
+  background: #007bff;
+  color: black;
+}
+
+.nextBtn {
+  background: #007bff;
+  color: #fff;
+}

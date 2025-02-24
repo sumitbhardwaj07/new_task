@@ -1,0 +1,90 @@
+.teamForm {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+.inputContainer {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.selectedUser {
+  background: #e0e0e0;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.selectedUser button {
+  margin-left: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.inputContainer input {
+  border: none;
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.inputContainer button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.suggestions {
+  list-style: none;
+  border: 1px solid #ccc;
+  padding: 5px;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.suggestions li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.membersList {
+  list-style: none;
+  padding: 0;
+}
+
+.membersList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.remove {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.back,
+.next {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
